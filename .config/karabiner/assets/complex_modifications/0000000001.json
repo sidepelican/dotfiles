@@ -13,6 +13,7 @@
                 "right_control"
               ],
               "optional": [
+                "control",
                 "caps_lock",
                 "option",
                 "command",
@@ -35,6 +36,7 @@
                 "right_control"
               ],
               "optional": [
+                "control",
                 "caps_lock",
                 "option",
                 "command",
@@ -57,6 +59,7 @@
                 "right_control"
               ],
               "optional": [
+                "control",
                 "caps_lock",
                 "option",
                 "command",
@@ -79,6 +82,7 @@
                 "right_control"
               ],
               "optional": [
+                "control",
                 "caps_lock",
                 "option",
                 "command",
@@ -184,6 +188,7 @@
                 "right_shift"
               ],
               "optional": [
+                "control",
                 "caps_lock",
                 "option",
                 "command",
@@ -206,6 +211,7 @@
                 "right_shift"
               ],
               "optional": [
+                "control",
                 "caps_lock",
                 "option",
                 "command",
@@ -228,6 +234,7 @@
                 "right_shift"
               ],
               "optional": [
+                "control",
                 "caps_lock",
                 "option",
                 "command",
@@ -250,6 +257,7 @@
                 "right_shift"
               ],
               "optional": [
+                "control",
                 "caps_lock",
                 "option",
                 "command",
