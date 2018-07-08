@@ -177,7 +177,7 @@
       ]
     },
     {
-      "description": "HHKB Arrow Mode (right_shift + semicolon/slash/open_bracket/quote to arrow keys, etc)",
+      "description": "HHKB Arrow Mode (right_shift + semicolon/slash/open_bracket/quote to arrow keys)",
       "manipulators": [
         {
           "type": "basic",
@@ -268,84 +268,6 @@
           "to": [
             {
               "key_code": "right_arrow"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "l",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ],
-              "optional": [
-                "caps_lock",
-                "option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "page_up"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "period",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ],
-              "optional": [
-                "caps_lock",
-                "option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "page_down"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "k",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "home"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "comma",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ],
-              "optional": [
-                "caps_lock"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "end"
             }
           ]
         }
