@@ -407,7 +407,6 @@
         }
       ]
     },
-
     {
       "description": "Map right_control + Esc to ~",
       "manipulators": [

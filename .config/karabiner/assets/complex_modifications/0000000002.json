@@ -1,0 +1,228 @@
+{
+  "title": "Option+up, down => up, down * 30",
+  "rules": [
+    {
+      "description": "Option+up, down => up, down * 30",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "up_arrow",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ],
+              "optional": [
+                "control",
+                "caps_lock",
+                "command",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "down_arrow",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ],
+              "optional": [
+                "control",
+                "caps_lock",
+                "command",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
