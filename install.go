@@ -31,7 +31,9 @@ func main() {
 		fmt.Println("dryRun enabled.")
 	}
 
-	dirs := []string{}
+	dirs := []string{
+		"~/Library/Developer/Xcode/UserData/FontAndColorThemes",
+	}
 	for _, dir := range dirs {
 		do("mkdir -p " + dir)
 	}
@@ -39,6 +41,8 @@ func main() {
 	files := []string{
 		".vimrc",
 		".config/karabiner",
+		"Library/Developer/Xcode/UserData/FontAndColorThemes/Default\\ \\(Dark\\).xccolortheme",
+		"Library/Developer/Xcode/UserData/FontAndColorThemes/Dusk.xccolortheme",
 	}
 	for _, file := range files {
 		do(fmt.Sprintf("ln -ins ~/projects/dotfiles/%s ~/%s", file, file))
