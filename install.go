@@ -33,6 +33,7 @@ func main() {
 
 	dirs := []string{
 		"~/Library/Developer/Xcode/UserData/FontAndColorThemes",
+		"~/.config",
 	}
 	for _, dir := range dirs {
 		do("mkdir -p " + dir)
