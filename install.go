@@ -34,6 +34,7 @@ func main() {
 	dirs := []string{
 		"~/Library/Developer/Xcode/UserData/FontAndColorThemes",
 		"~/.config",
+		`~/Library/Application\ Support/Code/User`,
 	}
 	for _, dir := range dirs {
 		do("mkdir -p " + dir)
@@ -44,6 +45,8 @@ func main() {
 		".config/karabiner",
 		"Library/Developer/Xcode/UserData/FontAndColorThemes/Default\\ \\(Dark\\).xccolortheme",
 		"Library/Developer/Xcode/UserData/FontAndColorThemes/Dusk.xccolortheme",
+		`Library/Application\ Support/Code/User/keybindings.json`,
+		`Library/Application\ Support/Code/User/settings.json`,
 	}
 	for _, file := range files {
 		do(fmt.Sprintf("ln -ins ~/projects/dotfiles/%s ~/%s", file, file))

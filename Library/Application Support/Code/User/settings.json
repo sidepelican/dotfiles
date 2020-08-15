@@ -1,0 +1,36 @@
+{
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "go.languageServerExperimentalFeatures": {
+        "format": true,
+        "autoComplete": true,
+        "rename": true,
+        "goToDefinition": true,
+        "hover": true,
+        "signatureHelp": true,
+        "goToTypeDefinition": true,
+        "goToImplementation": true,
+        "documentSymbols": true,
+        "workspaceSymbols": true,
+        "findReferences": true,
+        "diagnostics": true
+    },
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on"
+    },
+    "files.eol": "\n",
+    "editor.rulers": [
+        80
+    ],
+    "window.zoomLevel": 1,
+    "explorer.confirmDragAndDrop": false
+}
