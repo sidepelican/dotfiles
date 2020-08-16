@@ -3,20 +3,6 @@
     "files.autoSave": "afterDelay",
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
-    "go.languageServerExperimentalFeatures": {
-        "format": true,
-        "autoComplete": true,
-        "rename": true,
-        "goToDefinition": true,
-        "hover": true,
-        "signatureHelp": true,
-        "goToTypeDefinition": true,
-        "goToImplementation": true,
-        "documentSymbols": true,
-        "workspaceSymbols": true,
-        "findReferences": true,
-        "diagnostics": true
-    },
     "[go]": {
         "editor.snippetSuggestions": "none",
         "editor.formatOnSave": true,
@@ -24,9 +10,7 @@
             "source.organizeImports": true
         },
     },
-    "go.toolsEnvVars": {
-        "GO111MODULE": "on"
-    },
+    "go.gopath": "~/go",
     "files.eol": "\n",
     "editor.rulers": [
         80
