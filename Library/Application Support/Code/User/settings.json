@@ -16,5 +16,9 @@
         80
     ],
     "window.zoomLevel": 1,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "[typescript]": {
+        "editor.tabSize": 2
+    }
 }
