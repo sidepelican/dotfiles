@@ -20,5 +20,13 @@
     "explorer.confirmDelete": false,
     "[typescript]": {
         "editor.tabSize": 2
-    }
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "editor.renderFinalNewline": false,
+    "go.toolsManagement.autoUpdate": true,
 }
