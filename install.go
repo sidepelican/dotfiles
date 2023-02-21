@@ -32,7 +32,6 @@ func main() {
 	}
 
 	dirs := []string{
-		"~/Library/Developer/Xcode/UserData/FontAndColorThemes",
 		"~/.config",
 		`~/Library/Application\ Support/Code/User`,
 	}
@@ -43,8 +42,6 @@ func main() {
 	files := []string{
 		".vimrc",
 		".config/karabiner",
-		"Library/Developer/Xcode/UserData/FontAndColorThemes/Default\\ \\(Dark\\).xccolortheme",
-		"Library/Developer/Xcode/UserData/FontAndColorThemes/Dusk.xccolortheme",
 		`Library/Application\ Support/Code/User/keybindings.json`,
 		`Library/Application\ Support/Code/User/settings.json`,
 	}
