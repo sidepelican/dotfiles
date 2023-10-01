@@ -334,6 +334,20 @@
                         "description": "スペースキーをJKIMと同時に押した時に矢印キーに変換",
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "description": "HHKB",
+                                                "vendor_id": 1278
+                                            },
+                                            {
+                                                "is_built_in_keyboard": true
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "spacebar",
                                     "modifiers": {
@@ -345,7 +359,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "spacebar pressed",
+                                            "name": "spacebar_pressed",
                                             "value": 1
                                         }
                                     },
@@ -356,7 +370,7 @@
                                 "to_after_key_up": [
                                     {
                                         "set_variable": {
-                                            "name": "spacebar pressed",
+                                            "name": "spacebar_pressed",
                                             "value": 0
                                         }
                                     }
@@ -364,7 +378,7 @@
                                 "to_if_alone": [
                                     {
                                         "set_variable": {
-                                            "name": "spacebar pressed",
+                                            "name": "spacebar_pressed",
                                             "value": 1
                                         }
                                     },
@@ -375,7 +389,7 @@
                                 "to_if_held_down": [
                                     {
                                         "set_variable": {
-                                            "name": "spacebar pressed",
+                                            "name": "spacebar_pressed",
                                             "value": 1
                                         }
                                     }
@@ -385,7 +399,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacebar pressed",
+                                        "name": "spacebar_pressed",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -408,7 +422,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacebar pressed",
+                                        "name": "spacebar_pressed",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -431,7 +445,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacebar pressed",
+                                        "name": "spacebar_pressed",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -454,7 +468,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacebar pressed",
+                                        "name": "spacebar_pressed",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -677,6 +691,20 @@
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 60255,
+                        "vendor_id": 1240
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
                 }

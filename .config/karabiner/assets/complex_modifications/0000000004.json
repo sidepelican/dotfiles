@@ -6,6 +6,20 @@
       "manipulators": [
         {
           "type": "basic",
+          "conditions": [
+            {
+                "type": "device_if",
+                "identifiers": [
+                    {
+                        "vendor_id": 1278,
+                        "description": "HHKB"
+                    },
+                    {
+                        "is_built_in_keyboard": true
+                    }
+                ]
+            }
+          ],
           "from": {
             "key_code": "spacebar",
             "modifiers": {
