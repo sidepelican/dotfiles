@@ -8,8 +8,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "left_command",
-                                    "modifiers": { "optional": ["any"] }
+                                    "key_code": "left_command"
                                 },
                                 "to": [{ "key_code": "left_command" }],
                                 "to_if_alone": [{ "key_code": "japanese_eisuu" }],
@@ -17,8 +16,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "right_command",
-                                    "modifiers": { "optional": ["any"] }
+                                    "key_code": "right_command"
                                 },
                                 "to": [{ "key_code": "right_command" }],
                                 "to_if_alone": [{ "key_code": "japanese_kana" }],
