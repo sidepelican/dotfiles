@@ -7,7 +7,7 @@
         "editor.snippetSuggestions": "none",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": "explicit"
         },
     },
     "go.gopath": "~/go",
@@ -15,7 +15,6 @@
     "editor.rulers": [
         80
     ],
-    "window.zoomLevel": 1,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "[typescript]": {
@@ -27,6 +26,17 @@
     "workbench.editor.focusRecentEditorAfterClose": false,
     "editor.detectIndentation": false,
     "files.insertFinalNewline": true,
-    "editor.renderFinalNewline": false,
+    "editor.renderFinalNewline": "off",
     "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "Default High Contrast",
+    "keyboard.dispatch": "keyCode",
+    "keyboard.touchbar.enabled": false,
+    "window.zoomLevel": 1,
+    "extensions.ignoreRecommendations": true,
+    "markdown.marp.enableHtml": true,
+    "git.openRepositoryInParentFolders": "never",
+    "update.showReleaseNotes": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
 }
