@@ -30,11 +30,13 @@ do_cmd() {
 
 # ディレクトリ作成
 do_cmd 'mkdir -p "$HOME/.config"'
+do_cmd 'mkdir -p "$HOME/.config/zed"'
 do_cmd 'mkdir -p "$HOME/Library/Application Support/Code/User"'
 
 # シンボリックリンク作成
 do_cmd 'ln -ins "$HOME/projects/dotfiles/.vimrc" "$HOME/.vimrc"'
 do_cmd 'ln -ins "$HOME/projects/dotfiles/.config/karabiner" "$HOME/.config/karabiner"'
+do_cmd 'ln -ins "$HOME/projects/dotfiles/.config/zed/keymap.json" "$HOME/.config/zed/keymap.json"'
+do_cmd 'ln -ins "$HOME/projects/dotfiles/.config/zed/settings.json" "$HOME/.config/zed/settings.json"'
 do_cmd 'ln -ins "$HOME/projects/dotfiles/Library/Application Support/Code/User/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"'
 do_cmd 'ln -ins "$HOME/projects/dotfiles/Library/Application Support/Code/User/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"'
-
