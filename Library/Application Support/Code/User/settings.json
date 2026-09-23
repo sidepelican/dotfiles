@@ -28,15 +28,39 @@
     "files.insertFinalNewline": true,
     "editor.renderFinalNewline": "off",
     "go.toolsManagement.autoUpdate": true,
-    "workbench.colorTheme": "Default High Contrast",
-    "keyboard.dispatch": "keyCode",
-    "keyboard.touchbar.enabled": false,
-    "window.zoomLevel": 1,
-    "extensions.ignoreRecommendations": true,
-    "markdown.marp.enableHtml": true,
     "git.openRepositoryInParentFolders": "never",
-    "update.showReleaseNotes": false,
-    "security.workspace.trust.untrustedFiles": "open",
     "workbench.startupEditor": "none",
-    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.inlineSuggest.enabled": true,
+    "update.showReleaseNotes": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "debug.onTaskErrors": "showErrors",
+    "window.zoomLevel": 1,
+    "outline.showVariables": false,
+    "swift.diagnosticsStyle": "default",
+    "github.copilot.editor.enableCodeActions": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "explorer.confirmPasteNative": false,
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.useModal": "some"
 }
